@@ -42,4 +42,5 @@ def get_data(url):
         print("N/A")
 
 
-get_temps()
+if __name__ == '__main__':
+    get_temps()
